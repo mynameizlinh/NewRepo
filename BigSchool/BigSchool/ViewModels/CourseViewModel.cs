@@ -16,6 +16,7 @@ namespace BigSchool.ViewModels
         [Required]
         public string Time { get; set; }
         [Required]
+
         public byte Category { get; set; }
         public IEnumerable<Category> Categories { get;set; }
 
